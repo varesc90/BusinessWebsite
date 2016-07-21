@@ -1,8 +1,60 @@
+<!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="Styles/index.css">
+	<title>Some Music Company Limited.</title>
+
 </head>
+
 <body>
+	<section id = "header">
+		<nav>
+			<li class="normalLink">
+				
+				<a href=""><ul>Discover</ul></a>
+				<a href=""><ul>Features Artist</ul></a>
+				<a href=""><ul>What we do</ul></a>
+			</li>
+			<li class="homeLink">
+				<ul id="logo"><a href="">Some Music Limited</a></ul>
+			</li>
+			<li class="serchBox">
+				<ul id="searchBox"><img id = "magniglass" src="images/magnify.png">  <input type = "text" name= "search"></ul>
+			</li>
+			<li class="normalLink">
+				<a href=""><ul>Sign in</ul></a>
+				<a href=""><ul>Create Account</ul></a>
+			</li>
+		</nav>
+	</section>
+
+
+	<section id = "slideShow">
+
+		<a class="buttonleft" onclick="plusDivs(-1)"><</a>
+		<a class="buttonright" onclick="plusDivs(1)">></a>
+
+		<div class="mySlides">
+
+			<div class="textBox">
+				<p class="header">Some</p>
+				<p class="header">Thing</p>
+				<p class="header">New</p>
+				<p class="header1">Coming in 2017</p>
+				<a class="learnMore" href= "whatwedo.html">Learn More</a>
+			</div>
+		</div>
+
+		<img class="mySlides" src="images/ed_sheeran.jpg">
+
+	</section>
+
+	<section id="footer">
+		&copy; 2016 Some Music Limited. ALL RIGHTS RESERVED
+	</section>
+
+	<script src="Js/jquery-3.0.0.js"></script>
+	<script src="JS/index.js"></script>
 
 </body>
 </html>
