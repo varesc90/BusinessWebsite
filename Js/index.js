@@ -17,3 +17,16 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block"; //Display block for the image that = slideIndex
 }
+
+
+$(document).ready(function() {
+	$(".learnMore").mouseenter(function(){
+		$(".learnMore").css("background-color","lightgrey");
+	})
+
+	$(".learnMore").mouseleave(function(){
+		$(".learnMore").css("background-color","white");
+
+	})
+
+});
