@@ -1,0 +1,61 @@
+* {
+	padding: 0;
+	margin-right: 0;
+}
+
+nav {
+	background-color: grey;
+	height: 50px;
+	margin: -10px;
+}
+
+nav ul {
+	height: 50px;
+	width: 908px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	display: block;
+	font-family: Impact, sans-serif;
+	font-size: 25px;
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+	font-size: 30px;
+
+}
+
+
+body {
+background: #191919; 
+}
+
+
+.mySlides {
+	width: 100%;
+}
+
+.w3-btn-floating1, .w3-btn-floating2{
+	background-color: white;
+}
+
+
+
+
+
+
+

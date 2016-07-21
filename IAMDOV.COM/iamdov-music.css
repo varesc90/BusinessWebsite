@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin-right: 0;
+}
+
+nav {
+	background-color: grey;
+	height: 50px;
+	margin: -10px;
+}
+
+nav ul {
+	height: 50px;
+	width: 908px;
+	margin: 0 auto;
+}
+
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	display: block;
+	font-family: Impact, sans-serif;
+	font-size: 25px;
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+	text-decoration: underline;
+	font-size: 30px;
+
+}
+
+
+body {
+background: #191919; 
+}
+
+h1#header {
+	color: white;
+	text-align: center;
+	font-size: 100px;
+	border: 5px solid;
+	text-shadow: 2px 2px grey;
+	margin-top: 10px;
+	font-family: Arial Black, Gadget, sans-serif
+}
+
+
+h3 {
+	text-align: center;
+	color: white;
+	margin top: 100px;
+	font-size: 35px;
+
+}
+
+h3#demolition {
+	text-align: center;
+	color: white;
+	font-size: 35px;
+
+}
+
+div iframe#istandard {
+	margin-left: 300px;
+}
+
+div iframe#scdemolition {
+	margin-left: 300px;
+}
+
+div iframe#scwolfofwallstreet {
+	margin-left: 300px;
+}
+
+div iframe#scanotheronebightsthedust {
+	margin-left: 300px;
+}
+
+div iframe#scdowhatjewwant {
+	margin-left: 300px;
+}
+
+div iframe#scfeelgood {
+	margin-left: 300px;
+}
+
+div iframe#scthegrind {
+	margin-left: 300px;
+}
+
+div iframe#scnumbers {
+	margin-left: 300px;
+}
+
+div iframe#scinvasion {
+	margin-left: 300px;
+}
+
+div iframe#scbackupinthis {
+	margin-left: 300px;
+}
+
+div iframe#schot {
+	margin-left: 300px;
+}
+
+div iframe#scmygirl {
+	margin-left: 300px;
+}
+
+div iframe#sconthehouse {
+	margin-left: 300px;
+}
+
+div iframe#scstandtallwithme {
+	margin-left: 300px;
+}

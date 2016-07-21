@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+
+			<link rel="stylesheet" type="text/css" href="iamdov.css">
+			<title>Dov Home</title>
+
+		</head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+	<body>
+
+		<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   
+		crossorigin="anonymous"></script>
+		<script type="iamdov.js"></script>
+
+	<nav>
+		<ul>
+			<li><a href="iamdov.html">HOME</a></li>
+			<li><a href="iamdov-bio.html">BIO</a></li>
+			<li><a href="store.html">STORE</a></li>
+			<li><a href="iamdov-music.html">MUSIC</a></li>
+			<li><a href="videos.html">VIDEOS</a></li>
+			<li><a href="iamdov-contact.html">CONTACT</a></li>
+		</ul>
+
+	</nav>
+
+	<div class="w3-content" style="max-width:800px;position:relative">
+
+		<img class="mySlides" src="homephoto.jpg">
+		<img class="mySlides" src="homephoto2.jpg">
+		<img class="mySlides" src="homephoto3.jpg">
+		
+
+		<a class="w3-btn-floating1" style="position:absolute;top:45%;left:0" onclick="plusDivs(-1)">&#8592;</a>
+		<a class="w3-btn-floating2" style="position:absolute;top:45%;right:0" onclick="plusDivs(1)">&#8594;</a>
+
+	</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+
+		
+
+	</body>
+</html>
