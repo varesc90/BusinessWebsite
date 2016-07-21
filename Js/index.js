@@ -27,6 +27,6 @@ $(document).ready(function() {
 	$(".learnMore").mouseleave(function(){
 		$(".learnMore").css("background-color","white");
 
-	})
+	})});
+ 
 
-});
