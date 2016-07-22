@@ -137,6 +137,44 @@ html, body{
 	text-decoration: none;
 }
 
+.images{
+	margin-left: 7%;
+}
+
+.mySlides img{
+	opacity: 0.5;
+	width: 30%;
+	box-sizing: border-box;
+	padding-top: 100px;
+}
+
+
+.textBox2 .learnMore, .textBox2 .slideTopic, .textBox2 .details{
+	background-color: black;
+	color: white;
+	position: absolute;
+}
+.textBox2 .slideTopic{
+
+	
+	top: 30%;
+	font-size: 50px;
+	left: 34%;
+}
+
+.textBox2 .details{
+	font-size: 30px;
+	left: 38.5%;
+	top: 50%;
+}
+
+.textBox2 a{
+	position: absolute;
+	left: 50%;
+	top: 65%;
+}
+
+.
 /*=============================================
 
 		Mini nav - whatwedo page

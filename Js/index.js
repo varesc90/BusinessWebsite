@@ -21,11 +21,11 @@ function showDivs(n) {
 
 $(document).ready(function() {
 	$(".learnMore").mouseenter(function(){
-		$(".learnMore").css("background-color","lightgrey");
+		$(".learnMore").css("opacity","0.5");
 	})
 
 	$(".learnMore").mouseleave(function(){
-		$(".learnMore").css("background-color","white");
+		$(".learnMore").css("opacity","1");
 
 	})});
  
