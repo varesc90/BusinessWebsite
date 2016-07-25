@@ -27,6 +27,11 @@ $(document).ready(function() {
 	$(".learnMore").mouseleave(function(){
 		$(".learnMore").css("opacity","1");
 
-	})});
+	})
+
+  $("#signin").click(function(){
+        $("#signin2").show();
+      })
+});
  
 
